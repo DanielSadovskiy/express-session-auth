@@ -1,1 +1,12 @@
 # express-session-auth init
+
+
+POST http://localhost:8080/signin
+
+{"username":"user2","password":"password2"}
+
+GET http://localhost:8080/welcome
+
+POST http://localhost:8080/refresh
+
+GET http://localhost:8080/logout
